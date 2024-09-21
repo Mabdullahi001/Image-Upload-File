@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Image Upload Form</h1>
+    <form id="imageForm">
+        <label for="imageInput">Choose an image:</label>
+        <input type="file" id="imageInput" accept="image/*">
+        <button type="submit">Display Image</button>
+    </form>
+    <div id="imageDisplay">
+        <h3>Your Image Will Appear Below</h3>
+        <img id="outputImage" src="#" alt="Uploaded Image" style="display: none;">
+    </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
